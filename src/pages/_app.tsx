@@ -14,7 +14,7 @@ function useNormalScrollRoutes() {
     router.events.on('routeChangeComplete', () => {
       document.documentElement.classList.remove('normal-scroll');
     });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 }
 
@@ -23,8 +23,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <ThemeProvider theme={GlobalStyles}>
-        <Component {...pageProps} />
-        <GlobalStyles />
+      <Component {...pageProps} />
+      <GlobalStyles />
+      <div>
+        a
+      </div>
     </ThemeProvider>
   );
 };
