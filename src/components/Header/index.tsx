@@ -30,7 +30,7 @@ export function Header() {
           <li>
             <Link href={'/'}>
               <a>
-                <span>Home</span>
+                <span>Homee</span>
               </a>
             </Link>
           </li>
