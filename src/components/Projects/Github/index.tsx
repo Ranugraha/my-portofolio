@@ -13,7 +13,7 @@ export function AllProjects() {
           <Link href={"https://github.com/Ranugraha/"}>
             <a target="_blank">
               <button>
-                Repository <FiGithub />
+                Repositoryy <FiGithub />
               </button>
             </a>
           </Link>
