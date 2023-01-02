@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link'
-import { FiGithub } from 'react-icons/fi'
-import { ButtonSecondary } from '../../../styles/styles'
-import { AllContainer, AllContent, Cubo } from './styles'
+import Link from "next/link";
+import { FiGithub } from "react-icons/fi";
+import { ButtonSecondary } from "../../../styles/styles";
+import { AllContainer, AllContent, Cubo } from "./styles";
 
 export function AllProjects() {
   return (
@@ -10,10 +10,10 @@ export function AllProjects() {
       <AllContainer>
         <h4>Todos os projetos</h4>
         <AllContent>
-          <Link href={'https://github.com/Ranugraha/'}>
+          <Link href={"https://github.com/Ranugraha/"}>
             <a target="_blank">
               <button>
-                Repositório <FiGithub />
+                Repository <FiGithub />
               </button>
             </a>
           </Link>
@@ -45,5 +45,5 @@ export function AllProjects() {
         </AllContent>
       </AllContainer>
     </>
-  )
+  );
 }
